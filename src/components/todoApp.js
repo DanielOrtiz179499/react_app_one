@@ -15,6 +15,7 @@ export default function TodoApp() {
 	function handleSubmit(e) {
 		e.preventDefault() //Anular para subir información a un lugar especifico
 		const newTodo = {
+			//////////
 			id: crypto.randomUUID(),
 			title: title,
 			completed: false
